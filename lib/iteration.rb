@@ -37,7 +37,7 @@ def total_even_pairs(src)
   total = 0
   for x in src:
     index = src.index(x)
-    if((src[index][0] % 2 == 0) && (src[index][1] % 2 == 0))
+    if(src[index][0] % 2 == 0 && src[index][1] % 2 == 0)
       total = total + src[index][0] + src[index][1]
     end
   end
