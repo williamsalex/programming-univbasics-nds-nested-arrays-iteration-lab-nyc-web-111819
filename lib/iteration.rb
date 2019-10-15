@@ -9,6 +9,7 @@ def join_ingredients(src)
   phrases = []
   for x in src
     phrases[src.index(x)] = "I love " + src[x][0] +" and " + src[x][1] + " on my pizza"
+  end
   return phrases
 end
 
