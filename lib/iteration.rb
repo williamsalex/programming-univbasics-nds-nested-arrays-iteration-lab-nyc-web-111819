@@ -20,7 +20,7 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   for x in src
     index = src.index(x)
-    src[index]
+    src[index].max
 end
 
 def total_even_pairs(src)
