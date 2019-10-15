@@ -21,7 +21,9 @@ def find_greater_pair(src)
   new_array = []
   for x in src
     index = src.index(x)
-    src[index].max
+    new_array.push(src[index].max)
+  end
+  return new_array
 end
 
 def total_even_pairs(src)
