@@ -8,7 +8,7 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   phrases = []
   for x in src
-    phrases[src.index(x)] = "I love " + src[x][0] +" and " + src[x][1] + " on my pizza"
+    phrases[x] = "I love " + src[x][0] +" and " + src[x][1] + " on my pizza"
   end
   return phrases
 end
